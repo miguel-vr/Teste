@@ -3,7 +3,7 @@
 body {
 	margin-top: 20px;
 	margin-bottom: 0px;
-	background: #000f00d7;
+	background: #000000db;
 	background-image: url('https://www.transparenttextures.com/patterns/always-grey.png');
 	min-height: 80%;
 	
@@ -127,9 +127,9 @@ p span {
 	top: 0;
 	right: 0;
 	border-left: 240px solid Transparent;
-	border-right: 250px solid #ffffff;
+	border-right: 250px solid #767171;
 	border-top: 200px solid Transparent;
-	border-bottom: 200px solid #8C7547;
+	border-bottom: 200px solid #253F5B;
 
 	z-index: 5;
 	border-bottom-right-radius: 10px;
@@ -140,10 +140,10 @@ p span {
 	position: absolute;
 	top: 0;
 	left: 0;
-	border-left: 250px solid #fafafa;
+	border-left: 250px solid #767171;
 	border-right: 240px solid Transparent;
 	border-top: 200px solid Transparent;
-	border-bottom: 200px solid #f9f7f7;
+	border-bottom: 200px solid #767171;
 
 	z-index: 4;
 	border-bottom-left-radius: 10px;
@@ -156,7 +156,7 @@ p span {
 	left: 0;
 	border-left: 250px solid transparent;
 	border-right: 250px solid transparent;
-	border-top: 200px solid #8C7547;
+	border-top: 200px solid #253F5B;
 	-webkit-filter: drop-shadow(5px 10px 10px #000000);
 	filter: drop-shadow(1px 5px 10px #000000);
 	border-bottom: 200px solid transparent;
@@ -209,22 +209,13 @@ p span {
 	top: 10%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	font-size: 22px;
+	font-size: 20px;
 	font-weight: 900;
 	/*text-shadow: 0px 3px 10px rgba(243, 243, 243, 0.6);*/
 	
 }
 .letter h2 {
-	/* -webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	background-image: -webkit-linear-gradient(
-		top,
-		#efd100 0,
-		#e2a233 38%,
-		#f0c328 60%,
-		#fff1a3 86%,
-		#ffe13e 100%
-	); */
+	
 	background-size: 1em 1em;
 	color: #f8b700;
 	position: absolute;
@@ -236,16 +227,7 @@ p span {
 	font-family: 'Karla', sans-serif;
 }
 .letter h3 {
-	/* -webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	background-image: -webkit-linear-gradient(
-		top,
-		#efd100 0,
-		#e2a233 38%,
-		#f0c328 60%,
-		#fff1a3 86%,
-		#ffe13e 100%
-	); */
+	
 	background-size: 1em 1em;
 	color: #f8b700;
 	position: absolute;
@@ -273,7 +255,7 @@ p span {
 	background-size: 1em 1em;
 	color: #f8b700;
 	position: absolute;
-	top: 40%;
+	top: 42%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-size: 15px;
@@ -290,7 +272,11 @@ p span {
 	transform: translate(-50%, -50%);
 	font-size: 15px;
 	font-weight: 900;
-	family: 'Karla', sans-serif;
+	font-family: 'Karla', sans-serif;
+}
+
+span{
+	font-size: 16px;
 }
 
 /* a {
