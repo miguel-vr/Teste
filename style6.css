@@ -4,8 +4,8 @@ body {
 	margin-bottom: 0px;
 	background: rgb(72, 5, 5);
 	background-image: url('https://www.transparenttextures.com/patterns/always-grey.png');
-	max-height: 900px;
-	
+	min-width: 900px;
+	min-width: 900px;
 
 	
 }
@@ -26,7 +26,6 @@ p {
 	color: #000;
 	font-weight: bold;
 	font-size: 20px;
-	
 }
 
 .abc {
@@ -398,7 +397,8 @@ a {
   text-transform: uppercase;
   width: 100%;
 	-webkit-filter: drop-shadow(5px 5px 5px #fffb00);
-	filter: drop-shadow(0px 1px 10px #f7f7f639);
+	filter: drop-shadow(0px 1px 10px #f7f7f625);
+	z-index: 10000;
 }
 .btn:hover {
   text-decoration: none;
@@ -408,8 +408,8 @@ a {
 .effect04 {
   --uismLinkDisplay: var(--smLinkDisplay, inline-flex);
   display: var(--uismLinkDisplay);
-  color: #000000;
-	background-color: rgba(255, 255, 255, 0);
+  color: #010101;
+	background-color: rgba(104, 2, 2, 0);
   outline: solid  2px rgb(0, 0, 0);
   position: relative;
   transition-duration: 0.4s;
