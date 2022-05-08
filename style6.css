@@ -4,9 +4,9 @@ body {
 	margin-bottom: 0px;
 	background: rgb(72, 5, 5);
 	background-image: url('https://www.transparenttextures.com/patterns/always-grey.png');
-	max-height: 2000px;
-	max-width: 2000px;
-	min-height: 80%;
+	max-height: 900px;
+	
+
 	
 }
 
@@ -26,6 +26,7 @@ p {
 	color: #000;
 	font-weight: bold;
 	font-size: 20px;
+	
 }
 
 .abc {
