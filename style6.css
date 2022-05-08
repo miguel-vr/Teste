@@ -4,8 +4,9 @@ body {
 	margin-bottom: 0px;
 	background: rgb(72, 5, 5);
 	background-image: url('https://www.transparenttextures.com/patterns/always-grey.png');
-	min-width: 900px;
-	min-width: 900px;
+	max-height: 2000px;
+	max-width: 2000px;
+	min-height: 80%;
 	
 }
 
@@ -27,8 +28,9 @@ p {
 	font-size: 20px;
 }
 
-p span {
+.abc {
 	font: 700 4em/1 'Oswald', sans-serif;
+	
 	letter-spacing: 0;
 	padding: 0.25em 0 0.325em;
 	display: block;
@@ -352,4 +354,103 @@ a {
 #direito:hover {
 	-webkit-filter: drop-shadow(5px 5px 5px #fffb00);
 	filter: drop-shadow(0px 5px 5px #fffb00);
+}
+
+.bem{
+	font-size: 25px;
+	color: #000000;
+	-webkit-filter: drop-shadow(5px 5px 5px #fffb00);
+	filter: drop-shadow(0px 1px 20px rgba(255, 255, 255, 0.5));
+	font-weight: bolder;
+	
+}
+
+/* .link-entre{
+	color: #f8b700;
+	text-decoration: none;
+	-webkit-filter: drop-shadow(5px 5px 5px #ffe100);
+	filter: drop-shadow(0px 2px 10px #ffe101);
+	border: 1px solid #ffffff;
+	border-radius: 10px;
+	background-color: #000000;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+
+}
+
+.link-entre:hover {
+	-webkit-filter: drop-shadow(5px 5px 5px #fffb00);
+	filter: drop-shadow(0px 1px 10px #fffb00);
+} */
+
+.btn {
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 45px;
+  max-width: 160px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+	-webkit-filter: drop-shadow(5px 5px 5px #fffb00);
+	filter: drop-shadow(0px 1px 10px #f7f7f639);
+}
+.btn:hover {
+  text-decoration: none;
+}
+
+/*btn_background*/
+.effect04 {
+  --uismLinkDisplay: var(--smLinkDisplay, inline-flex);
+  display: var(--uismLinkDisplay);
+  color: #000000;
+	background-color: rgba(255, 255, 255, 0);
+  outline: solid  2px rgb(0, 0, 0);
+  position: relative;
+  transition-duration: 0.4s;
+  overflow: hidden;
+	font-size: 15px;
+	font-weight: bolder;
+}
+
+.effect04::before,
+.effect04 span{
+    margin: 0 auto;
+	transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+	transition-duration: 0.4s;
+}
+
+/* 文字1を上に */
+.effect04:hover{
+
+  background-color: #000;
+}
+
+/* HOVERしたら文字1を上に */
+.effect04:hover span{
+  -webkit-transform: translateY(-400%) scale(-0.1,20);
+          transform: translateY(-400%) scale(-0.1,20);
+}
+
+/*文字2*/
+.effect04::before{
+  content: attr(data-sm-link-text);
+	color: #FFF;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  -webkit-transform: translateY(500%) scale(-0.1,20);
+          transform: translateY(500%) scale(-0.1,20);
+}
+
+/* HOVERしたら文字2を上に */
+.effect04:hover::before{
+  letter-spacing: 0.05em;
+  -webkit-transform: translateY(0) scale(1,1);
+          transform: translateY(0) scale(1,1);
 }
