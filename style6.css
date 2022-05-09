@@ -1,4 +1,6 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Updock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&family=Roboto&family=Updock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 body {
 	margin-top: 20px;
 	margin-bottom: 0px;
@@ -211,13 +213,12 @@ p {
 	top: 10%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	font-size: 20px;
+	font-size: 23px;
 	font-weight: 900;
 	/*text-shadow: 0px 3px 10px rgba(243, 243, 243, 0.6);*/
-	font-family: 'Updock', cursive;
 }
 .letter h2 {
-	-webkit-background-clip: text;
+	/* -webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-image: -webkit-linear-gradient(
 		top,
@@ -226,7 +227,7 @@ p {
 		#f0c328 60%,
 		#fff1a3 86%,
 		#ffe13e 100%
-	);
+	); */
 	background-size: 1em 1em;
 	color: #f8b700;
 	position: absolute;
@@ -235,9 +236,10 @@ p {
 	transform: translate(-50%, -50%);
 	font-size: 15px;
 	font-weight: 900;
+	font-family: 'Karla', sans-serif;
 }
 .letter h3 {
-	-webkit-background-clip: text;
+	/* -webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-image: -webkit-linear-gradient(
 		top,
@@ -246,7 +248,7 @@ p {
 		#f0c328 60%,
 		#fff1a3 86%,
 		#ffe13e 100%
-	);
+	); */
 	background-size: 1em 1em;
 	color: #f8b700;
 	position: absolute;
@@ -255,6 +257,7 @@ p {
 	transform: translate(-50%, -50%);
 	font-size: 15px;
 	font-weight: 900;
+	font-family: 'Karla', sans-serif;
 }
 .letter h4 {
 	background-clip: text;
@@ -266,6 +269,7 @@ p {
 	transform: translate(-50%, -50%);
 	font-size: 15px;
 	font-weight: 900;
+	font-family: 'Karla', sans-serif;
 }
 .letter h5 {
 	background-clip: text;
@@ -277,6 +281,7 @@ p {
 	transform: translate(-50%, -50%);
 	font-size: 15px;
 	font-weight: 900;
+	font-family: 'Karla', sans-serif;
 }
 .letter h6 {
 	background-clip: text;
@@ -288,7 +293,24 @@ p {
 	transform: translate(-50%, -50%);
 	font-size: 15px;
 	font-weight: 900;
+	font-family: 'Karla', sans-serif;
 }
+
+/* .letter span {
+	background-clip: text;
+	background-size: 1em 1em;
+	color: #f8b700;
+	position: absolute;
+	top: 58%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 15px;
+	font-weight: 900;
+	
+	font-family: 'Satisfy', cursive;
+}
+ */
+
 
 /* a {
 	text-decoration: none;
